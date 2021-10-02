@@ -1,0 +1,341 @@
+/*icono*/
+
+body{
+    font: 15px Arial;
+    margin: 0;
+    padding: 0;
+    background-attachment: #f4f4f4;
+}
+/* Estilos gobales*/
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.button1{
+    background-color: #e8491e;
+    height: 38px;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+
+}
+/*Encabesado*/
+header{
+    background-color: #24282b;
+    color: #fff;
+    padding-top: 0px;
+    border-bottom: 4px solid #1292d4;
+
+} 
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+header li{
+    float: left;
+    padding: 0 20px 0 20px;
+
+}
+header #marco{
+   float: left;
+
+}
+header #marco h1{
+    margin: 8px;
+    
+ }
+ header nav{
+   float: right;
+   margin-top: 25px;
+
+ }
+ header .resultado,header .actual a{
+     color: #1292d4;
+     font-weight: bold;
+
+ }  
+ .dos a:hover{
+    color: #1292d4;
+    font-weight: bold;
+ }
+ header a:hover{
+     color: #ccc;
+     font-weight: bold;
+ }
+ /*Cabesera con imagen*/
+ #cabesera{
+     min-height: 350px;
+     background: url(../img/-1.jpg) no-repeat center top;
+     text-align: center;
+     color:#022030;
+     background-size: cover;
+    font-family: sans-serif;
+ }
+ #cabesera h1{
+     margin-top: 100px;
+     font-size: 55px;
+ }
+
+ /*Formulario boletin*/
+ #boletin{
+     padding: 3px;
+     color: #fff;
+     background: #24282b;
+     border-top: #1292d4 4px solid;
+     margin-bottom: 0;
+ }
+ #boletin h1{
+   float: left;
+}
+#boletin section{
+   float: right;
+   margin-top: 10px;
+}
+#boletin input[type="email"]{
+    padding: 5px;
+    height:25px ;
+    width: 250;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+/*Cajas*/
+/*#cajas{
+    margin-top: 20px;
+    
+}*/
+#cajas .caja{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+   
+  
+}
+#cajas .caja img{
+    width: 90px;
+    margin-top: 10px;
+}
+#cajas .caja1 img{
+    width: 90px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#cajas .caja1{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+    background-color: #e6e6e6;
+}
+.caja1{
+    margin-top: 15px;
+}
+#cajas .caja3 img{
+    width: 90px;
+    margin-top: 10px;
+}
+#cajas .caja3{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+/*Lateral*/
+aside#literal{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+aside#derecho{
+    float: right;
+    width: 30%;
+    margin-top:10%;
+}
+aside#abajo{
+    float: right;
+    width: 30%;
+    margin-top:10%;
+}
+.oscuro{
+    padding: 20px;
+    background-color: #24282b;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* articulo*/
+article#main-col{
+    float: left;
+    width: 65%;
+}
+/*Pie de pagina*/
+footer{
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #1292d4;
+    text-align: center;
+}
+footer a{
+    float: left;
+    color: #fff;
+    text-decoration: none;
+}
+/*Table*/
+table,h4{
+    width: 65%;
+    text-align: center;
+}
+table,th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    align-self: start;
+}
+th,td{
+    padding: 20px;
+    padding-top: bold;
+} 
+/* cabesera*/
+.automatico{
+    width: 100%;
+    height: 40%;
+    margin: 0;
+    overflow: hidden;
+}
+.automatico ul{
+  padding: 0;
+  display: flex;
+  width: 400%;
+  animation: cambio 20s infinite;
+  animation-direction: alternate;
+}
+.automatico li{
+    list-style: none;
+    width: 100%;
+}
+.automatico img{
+    height: 100%;
+    width: 100%;
+}
+@keyframes cambio{
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+/*Servicios*/
+ul#servicios li{
+    list-style: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+
+/*formulario de contacto*/
+#main-col input, textarea{
+    width: 100%;
+    height: 35px;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+
+}
+textarea{
+    height: 120px;
+}
+input[type="submit"]{
+    background-color: #e8491e;
+    color: #fff;
+}
+label{
+  font-family: sans-serif;
+}
+  
+/*media queri*/
+
+@media(max-width: 768px){
+    header #marco,
+    header nav,
+    header nav li,
+    #boletin h1,
+    #boletin form,
+    #cajas .caja,
+    article#main-col,
+    article#lateral{
+      float: none;
+      text-align: center;
+      width: 100%;
+    }
+    header{
+        padding-bottom: 10px;
+    }
+    #boletin h1{
+        margin-top: 30px;
+    }
+    #boletin button{
+        display: block;
+        width: 100%;
+
+    }
+
+    #boletin form input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    input, textarea{
+        width: 90%;
+    }
+}
+/* contenido*/
+.automatic{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.automatic ul{
+  padding: 0;
+  display: flex;
+  width: 400%;
+  animation: cambi 20s infinite;
+  animation-direction: alternate;
+}
+.automatic li{
+    list-style: none;
+    width: 100%;
+}
+@keyframes cambi{
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+
